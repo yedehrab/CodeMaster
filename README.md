@@ -1,1 +1,2 @@
-npm run dev ile çalıştırın.
+npm install
+npm run dev 
