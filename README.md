@@ -1,2 +1,1 @@
-# CodeMaster
-OBSS Code master
+npm run dev ile çalıştırın.

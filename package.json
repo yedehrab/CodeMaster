@@ -1,0 +1,31 @@
+{
+  "name": "i",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "node test",
+    "start": "node dist/index.js",
+    "dev": "node tools/dev",
+    "build": "mkdir dist & babel *.js lib/*.js -s -d dist",
+    "build:db": "mkdir dist & babel *.js lib/*.js -s -d dist & xcopy public dist\\public /s /i /e /y & xcopy database dist\\database /s /i /e /y",
+    "build:start": "npm run build & npm run start",
+    "clean": "xcopy dist\\database database /s /i /e /y & rd /s /q dist",
+    "clean:all": "rd /s /q dist",
+    "rebuild": "npm run clean & npm run build",
+    "rebuild:db": "npm run clean & npm run build:db"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.88.0"
+  }
+}

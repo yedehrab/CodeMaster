@@ -1,0 +1,33 @@
+{
+  "statusCode": 200,
+  "body": "AAAAAAAAAA",
+  "headers": {
+    "date": "Sat, 16 Mar 2019 14:51:46 GMT",
+    "server": "Apache",
+    "x-application-context": "application:7200",
+    "content-length": "10",
+    "x-response-duration": "D=5549",
+    "x-xss-protection": "1; mode=block",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "connection": "close"
+  },
+  "request": {
+    "uri": {
+      "protocol": "http:",
+      "slashes": true,
+      "auth": null,
+      "host": "cm-testsite.obss.com.tr",
+      "port": 80,
+      "hostname": "cm-testsite.obss.com.tr",
+      "hash": null,
+      "search": null,
+      "query": null,
+      "pathname": "/obssInfo",
+      "path": "/obssInfo",
+      "href": "http://cm-testsite.obss.com.tr/obssInfo"
+    },
+    "method": "GET",
+    "headers": { "referer": "http://cm-testsite.obss.com.tr/obss" }
+  }
+}

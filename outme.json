@@ -1,0 +1,11 @@
+{
+  "parsedUrl": "http://cm-testsite.obss.com.tr/post/a-codemaster-codemaster-codemaster-codemaster",
+  "finalUrl": "http://cm-testsite.obss.com.tr/post/a-codemaster",
+  "secured": false,
+  "reachable": false,
+  "redirectedURLs": [],
+  "totalAccessDuration": 0,
+  "contentLength": 0,
+  "responseCode": 310,
+  "responseMessage": "Too many redirect"
+}
